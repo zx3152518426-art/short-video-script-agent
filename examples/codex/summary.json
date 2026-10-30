@@ -1,0 +1,57 @@
+[
+  {
+    "case": "normal",
+    "expected": "completed",
+    "actual": "completed",
+    "passed": true,
+    "steps": 3,
+    "elapsed_seconds": 43.86,
+    "revisions": 1,
+    "path": "examples/codex/normal",
+    "errors": []
+  },
+  {
+    "case": "missing_info",
+    "expected": "needs_input",
+    "actual": "needs_input",
+    "passed": true,
+    "steps": 1,
+    "elapsed_seconds": 11.49,
+    "revisions": 0,
+    "path": "examples/codex/missing_info",
+    "errors": []
+  },
+  {
+    "case": "tool_failure",
+    "expected": "completed",
+    "actual": "completed",
+    "passed": true,
+    "steps": 4,
+    "elapsed_seconds": 71.88,
+    "revisions": 1,
+    "path": "examples/codex/tool_failure",
+    "errors": []
+  },
+  {
+    "case": "over_duration",
+    "expected": "completed",
+    "actual": "completed",
+    "passed": true,
+    "steps": 4,
+    "elapsed_seconds": 49.77,
+    "revisions": 2,
+    "path": "examples/codex/over_duration",
+    "errors": []
+  },
+  {
+    "case": "no_material",
+    "expected": "needs_input",
+    "actual": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 3,
+    "elapsed_seconds": 39.3,
+    "revisions": 0,
+    "path": "examples/codex/no_material"
+  }
+]

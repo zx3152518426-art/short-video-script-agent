@@ -1,0 +1,79 @@
+[
+  {
+    "case": "normal",
+    "expected": "completed",
+    "actual": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 3,
+    "elapsed_seconds": 0.01,
+    "revisions": 1,
+    "path": "examples/mock/normal"
+  },
+  {
+    "case": "missing_info",
+    "expected": "needs_input",
+    "actual": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 1,
+    "elapsed_seconds": 0.0,
+    "revisions": 0,
+    "path": "examples/mock/missing_info"
+  },
+  {
+    "case": "no_material",
+    "expected": "needs_input",
+    "actual": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 3,
+    "elapsed_seconds": 0.0,
+    "revisions": 0,
+    "path": "examples/mock/no_material"
+  },
+  {
+    "case": "tool_failure",
+    "expected": "completed",
+    "actual": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 4,
+    "elapsed_seconds": 0.0,
+    "revisions": 1,
+    "path": "examples/mock/tool_failure"
+  },
+  {
+    "case": "over_duration",
+    "expected": "completed",
+    "actual": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 5,
+    "elapsed_seconds": 0.0,
+    "revisions": 3,
+    "path": "examples/mock/over_duration"
+  },
+  {
+    "case": "rule_revision",
+    "expected": "completed",
+    "actual": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 4,
+    "elapsed_seconds": 0.0,
+    "revisions": 2,
+    "path": "examples/mock/rule_revision"
+  },
+  {
+    "case": "impossible_duration",
+    "expected": "incomplete",
+    "actual": "incomplete",
+    "passed": true,
+    "errors": [],
+    "steps": 6,
+    "elapsed_seconds": 0.0,
+    "revisions": 4,
+    "path": "examples/mock/impossible_duration"
+  }
+]

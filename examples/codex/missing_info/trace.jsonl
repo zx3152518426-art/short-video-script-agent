@@ -1,0 +1,1 @@
+{"step": 1, "action": "finish", "reason": "brief 缺少目标时长，需要补充后才能安排镜头与节奏。", "arguments": {"status": "needs_input", "message": "请补充视频目标时长。", "questions": ["这条抖音操作演示视频计划多长时间，例如30秒或60秒？"], "script_id": ""}, "observation": {"ok": true, "status": "needs_input"}}

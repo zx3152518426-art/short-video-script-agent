@@ -1,0 +1,34 @@
+Command: python -m unittest discover -s tests -v
+Python: 3.12.10
+test_alias_search (test_agent.AgentTests.test_alias_search) ... ok
+test_banned_claim_in_title_and_visual (test_agent.AgentTests.test_banned_claim_in_title_and_visual) ... ok
+test_cannot_cite_unretrieved_fact (test_agent.AgentTests.test_cannot_cite_unretrieved_fact) ... ok
+test_changed_rate_changes_timing (test_agent.AgentTests.test_changed_rate_changes_timing) ... ok
+test_changed_source_changes_output (test_agent.AgentTests.test_changed_source_changes_output) ... ok
+test_each_missing_field (test_agent.AgentTests.test_each_missing_field) ... ok
+test_empty_shots (test_agent.AgentTests.test_empty_shots) ... ok
+test_export (test_agent.AgentTests.test_export) ... ok
+test_failed_revision_invalidates_prior_pass (test_agent.AgentTests.test_failed_revision_invalidates_prior_pass) ... ok
+test_impossible_duration (test_agent.AgentTests.test_impossible_duration) ... ok
+test_invalid_duration (test_agent.AgentTests.test_invalid_duration) ... ok
+test_malformed_model_json (test_agent.AgentTests.test_malformed_model_json) ... ok
+test_model_failure (test_agent.AgentTests.test_model_failure) ... ok
+test_no_false_completion (test_agent.AgentTests.test_no_false_completion) ... ok
+test_no_material (test_agent.AgentTests.test_no_material) ... ok
+test_normal (test_agent.AgentTests.test_normal) ... ok
+test_over_duration_revision (test_agent.AgentTests.test_over_duration_revision) ... ok
+test_search_empty_not_entire_database (test_agent.AgentTests.test_search_empty_not_entire_database) ... ok
+test_source_quotes_exact (test_agent.AgentTests.test_source_quotes_exact) ... ok
+test_stale_script_id (test_agent.AgentTests.test_stale_script_id) ... ok
+test_step_limit (test_agent.AgentTests.test_step_limit) ... ok
+test_tool_failure_invalidates_prior_pass (test_agent.AgentTests.test_tool_failure_invalidates_prior_pass) ... ok
+test_transient_check_failure_preserves_search (test_agent.AgentTests.test_transient_check_failure_preserves_search) ... ok
+test_transient_search_failure (test_agent.AgentTests.test_transient_search_failure) ... ok
+test_unapproved_narration (test_agent.AgentTests.test_unapproved_narration) ... ok
+test_unknown_action (test_agent.AgentTests.test_unknown_action) ... ok
+test_unknown_source (test_agent.AgentTests.test_unknown_source) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.015s
+
+OK

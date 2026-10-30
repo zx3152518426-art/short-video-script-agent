@@ -1,0 +1,215 @@
+{
+  "status": "completed",
+  "message": "脚本已完成。",
+  "questions": [],
+  "provider": "mock",
+  "model": null,
+  "elapsed_seconds": 0.01,
+  "steps": 3,
+  "max_steps": 8,
+  "script": {
+    "revision": 1,
+    "script_id": "11b91dbab0fdf4f2",
+    "title": "给口播加上字幕",
+    "shots": [
+      {
+        "shot": 1,
+        "visual": "展示字幕编辑界面",
+        "narration": "轻剪支持为口播视频添加字幕。",
+        "subtitle": "轻剪支持为口播视频添加字幕。",
+        "estimated_seconds": 3.85,
+        "sources": [
+          {
+            "material_id": "P01",
+            "fact_id": "P01-F1",
+            "quote": "轻剪支持为口播视频添加字幕。"
+          }
+        ]
+      }
+    ],
+    "estimated_total_seconds": 3.85,
+    "target_seconds": 30,
+    "passed": true,
+    "issues": []
+  },
+  "revisions": [
+    {
+      "revision": 1,
+      "script_id": "11b91dbab0fdf4f2",
+      "title": "给口播加上字幕",
+      "shots": [
+        {
+          "shot": 1,
+          "visual": "展示字幕编辑界面",
+          "narration": "轻剪支持为口播视频添加字幕。",
+          "subtitle": "轻剪支持为口播视频添加字幕。",
+          "estimated_seconds": 3.85,
+          "sources": [
+            {
+              "material_id": "P01",
+              "fact_id": "P01-F1",
+              "quote": "轻剪支持为口播视频添加字幕。"
+            }
+          ]
+        }
+      ],
+      "estimated_total_seconds": 3.85,
+      "target_seconds": 30,
+      "passed": true,
+      "issues": []
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search",
+      "reason": "先查主题相关素材",
+      "arguments": {
+        "query": "轻剪字幕演示"
+      },
+      "observation": {
+        "ok": true,
+        "query": "轻剪字幕演示",
+        "materials": [
+          {
+            "id": "P01",
+            "name": "轻剪",
+            "version": "2026-10-29",
+            "keywords": [
+              "字幕",
+              "口播",
+              "剪辑",
+              "视频",
+              "caption"
+            ],
+            "facts": [
+              {
+                "id": "P01-F1",
+                "text": "轻剪支持为口播视频添加字幕。"
+              },
+              {
+                "id": "P01-F2",
+                "text": "字幕文本可以逐句修改。"
+              },
+              {
+                "id": "P01-F3",
+                "text": "用户可以调整字幕颜色和位置。"
+              },
+              {
+                "id": "P01-F4",
+                "text": "导出前可以预览带字幕的视频。"
+              }
+            ]
+          }
+        ],
+        "count": 1,
+        "copy_options": {
+          "lead": [
+            "",
+            "口播录好了，字幕怎么加？",
+            "先看画面，再看文字。",
+            "字幕里的错字，改完再发。"
+          ],
+          "close": [
+            "",
+            "试着给这段口播加上字幕。",
+            "检查完，再导出。",
+            "跟着画面操作一遍。"
+          ]
+        },
+        "rules": {
+          "version": "2026-10-29",
+          "speech_units_per_second": 4,
+          "pause_seconds": 0.6,
+          "min_shot_seconds": 2,
+          "banned_terms": [
+            "第一",
+            "最好",
+            "百分百",
+            "效率提升",
+            "保证",
+            "免费",
+            "自动翻译",
+            "降噪",
+            "离线运行"
+          ],
+          "copy_options": {
+            "lead": [
+              "",
+              "口播录好了，字幕怎么加？",
+              "先看画面，再看文字。",
+              "字幕里的错字，改完再发。"
+            ],
+            "close": [
+              "",
+              "试着给这段口播加上字幕。",
+              "检查完，再导出。",
+              "跟着画面操作一遍。"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "step": 2,
+      "action": "check_script",
+      "reason": "选择素材写成分镜并检查",
+      "arguments": {
+        "script": {
+          "title": "给口播加上字幕",
+          "shots": [
+            {
+              "visual": "展示字幕编辑界面",
+              "lead": "",
+              "fact_ids": [
+                "P01-F1"
+              ],
+              "close": ""
+            }
+          ]
+        }
+      },
+      "observation": {
+        "ok": true,
+        "revision": 1,
+        "script_id": "11b91dbab0fdf4f2",
+        "title": "给口播加上字幕",
+        "shots": [
+          {
+            "shot": 1,
+            "visual": "展示字幕编辑界面",
+            "narration": "轻剪支持为口播视频添加字幕。",
+            "subtitle": "轻剪支持为口播视频添加字幕。",
+            "estimated_seconds": 3.85,
+            "sources": [
+              {
+                "material_id": "P01",
+                "fact_id": "P01-F1",
+                "quote": "轻剪支持为口播视频添加字幕。"
+              }
+            ]
+          }
+        ],
+        "estimated_total_seconds": 3.85,
+        "target_seconds": 30,
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "reason": "最新版本已通过检查",
+      "arguments": {
+        "status": "completed",
+        "message": "脚本已完成。",
+        "questions": [],
+        "script_id": "11b91dbab0fdf4f2"
+      },
+      "observation": {
+        "ok": true,
+        "status": "completed"
+      }
+    }
+  ]
+}

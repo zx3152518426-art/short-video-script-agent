@@ -1,0 +1,33 @@
+{
+  "status": "needs_input",
+  "message": "请补充创作要求。",
+  "questions": [
+    "target_seconds"
+  ],
+  "provider": "mock",
+  "model": null,
+  "elapsed_seconds": 0.0,
+  "steps": 1,
+  "max_steps": 8,
+  "script": null,
+  "revisions": [],
+  "trace": [
+    {
+      "step": 1,
+      "action": "finish",
+      "reason": "输入不完整",
+      "arguments": {
+        "status": "needs_input",
+        "message": "请补充创作要求。",
+        "questions": [
+          "target_seconds"
+        ],
+        "script_id": ""
+      },
+      "observation": {
+        "ok": true,
+        "status": "needs_input"
+      }
+    }
+  ]
+}

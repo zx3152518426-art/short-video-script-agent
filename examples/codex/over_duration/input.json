@@ -1,0 +1,24 @@
+{
+  "topic": "轻剪字幕演示",
+  "audience": "刚开始做口播的创作者",
+  "platform": "抖音",
+  "target_seconds": 8,
+  "style": "操作演示，表达直接",
+  "initial_script": {
+    "title": "给口播加字幕",
+    "shots": [
+      {
+        "visual": "录好口播后打开字幕编辑页",
+        "lead": "口播录好了，字幕怎么加？",
+        "fact_ids": [
+          "P01-F1",
+          "P01-F2",
+          "P01-F3",
+          "P01-F4"
+        ],
+        "close": "检查完，再导出。"
+      }
+    ]
+  },
+  "start_long": true
+}

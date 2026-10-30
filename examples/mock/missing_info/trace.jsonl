@@ -1,0 +1,1 @@
+{"step": 1, "action": "finish", "reason": "输入不完整", "arguments": {"status": "needs_input", "message": "请补充创作要求。", "questions": ["target_seconds"], "script_id": ""}, "observation": {"ok": true, "status": "needs_input"}}

@@ -1,0 +1,151 @@
+{
+  "status": "needs_input",
+  "message": "请提供产品介绍或素材。",
+  "questions": [
+    "产品素材"
+  ],
+  "provider": "mock",
+  "model": null,
+  "elapsed_seconds": 0.0,
+  "steps": 3,
+  "max_steps": 8,
+  "script": null,
+  "revisions": [],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search",
+      "reason": "先查主题相关素材",
+      "arguments": {
+        "query": "星际跃迁引擎"
+      },
+      "observation": {
+        "ok": true,
+        "query": "星际跃迁引擎",
+        "materials": [],
+        "count": 0,
+        "copy_options": {
+          "lead": [
+            "",
+            "口播录好了，字幕怎么加？",
+            "先看画面，再看文字。",
+            "字幕里的错字，改完再发。"
+          ],
+          "close": [
+            "",
+            "试着给这段口播加上字幕。",
+            "检查完，再导出。",
+            "跟着画面操作一遍。"
+          ]
+        },
+        "rules": {
+          "version": "2026-10-29",
+          "speech_units_per_second": 4,
+          "pause_seconds": 0.6,
+          "min_shot_seconds": 2,
+          "banned_terms": [
+            "第一",
+            "最好",
+            "百分百",
+            "效率提升",
+            "保证",
+            "免费",
+            "自动翻译",
+            "降噪",
+            "离线运行"
+          ],
+          "copy_options": {
+            "lead": [
+              "",
+              "口播录好了，字幕怎么加？",
+              "先看画面，再看文字。",
+              "字幕里的错字，改完再发。"
+            ],
+            "close": [
+              "",
+              "试着给这段口播加上字幕。",
+              "检查完，再导出。",
+              "跟着画面操作一遍。"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "step": 2,
+      "action": "search",
+      "reason": "原词无结果，改用产品名称",
+      "arguments": {
+        "query": "星际跃迁引擎"
+      },
+      "observation": {
+        "ok": true,
+        "query": "星际跃迁引擎",
+        "materials": [],
+        "count": 0,
+        "copy_options": {
+          "lead": [
+            "",
+            "口播录好了，字幕怎么加？",
+            "先看画面，再看文字。",
+            "字幕里的错字，改完再发。"
+          ],
+          "close": [
+            "",
+            "试着给这段口播加上字幕。",
+            "检查完，再导出。",
+            "跟着画面操作一遍。"
+          ]
+        },
+        "rules": {
+          "version": "2026-10-29",
+          "speech_units_per_second": 4,
+          "pause_seconds": 0.6,
+          "min_shot_seconds": 2,
+          "banned_terms": [
+            "第一",
+            "最好",
+            "百分百",
+            "效率提升",
+            "保证",
+            "免费",
+            "自动翻译",
+            "降噪",
+            "离线运行"
+          ],
+          "copy_options": {
+            "lead": [
+              "",
+              "口播录好了，字幕怎么加？",
+              "先看画面，再看文字。",
+              "字幕里的错字，改完再发。"
+            ],
+            "close": [
+              "",
+              "试着给这段口播加上字幕。",
+              "检查完，再导出。",
+              "跟着画面操作一遍。"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "reason": "两次检索都未找到素材",
+      "arguments": {
+        "status": "needs_input",
+        "message": "请提供产品介绍或素材。",
+        "questions": [
+          "产品素材"
+        ],
+        "script_id": ""
+      },
+      "observation": {
+        "ok": true,
+        "status": "needs_input"
+      }
+    }
+  ]
+}
